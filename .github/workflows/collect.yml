@@ -189,7 +189,7 @@ jobs:
           tag_name: ${{ needs.Date.outputs.Date }}
           make_latest: true
           files: |
-            ${{ vars.COLLECTOR }}-${{ needs.Date.outputs.Date }}.*
+            ${{ vars.COLLECTOR }}-${{ needs.Date.outputs.Date }}.[bt]*
 
   Sharepoint:
     runs-on: ubuntu-latest
