@@ -1,4 +1,4 @@
 docker.io:
     images-by-tag-regex:
-        plantuml/plantuml: (^1$)|(^1.2024)|(^latest$)
-        plantuml/plantuml-server: (^1.2024.6$)|(^(jetty|tomcat|latest)$)
+        plantuml/plantuml: (^1$)|(^1.2024)
+        plantuml/plantuml-server: (^1.2024.7$)
